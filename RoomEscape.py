@@ -23,7 +23,9 @@ scene1_door1.locate(scene1, 910, 270)
 scene1_door1.show()
 
 scene1_right_flowerpot = Object(image_path + '화분.png')
-scene1_right_flowerpot.locate(scene1, 1000, 260)
+scene1_right_flowerpot.x = 1000
+scene1_right_flowerpot.y = 260
+scene1_right_flowerpot.locate(scene1, scene1_right_flowerpot.x, scene1_right_flowerpot.y)
 scene1_right_flowerpot.show()
 
 scene1_left_flowerpot1 = Object(image_path + '화분.png')
